@@ -1,0 +1,19 @@
+{
+  "name": "react_pluralsight",
+  "version": "1.0.0",
+  "description": "## Server info [https://www.npmjs.com/package/http-server](https://www.npmjs.com/package/http-server)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannypule/react_pluralsight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannypule/react_pluralsight/issues"
+  },
+  "homepage": "https://github.com/dannypule/react_pluralsight#readme"
+}
