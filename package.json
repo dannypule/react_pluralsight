@@ -4,7 +4,9 @@
   "description": "## Server info [https://www.npmjs.com/package/http-server](https://www.npmjs.com/package/http-server)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js -d lib --presets react",
+    "b": "babel js -d lib --presets react"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/dannypule/react_pluralsight/issues"
   },
-  "homepage": "https://github.com/dannypule/react_pluralsight#readme"
+  "homepage": "https://github.com/dannypule/react_pluralsight#readme",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-react": "^6.5.0"
+  }
 }
