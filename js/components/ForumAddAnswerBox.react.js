@@ -22,8 +22,8 @@ var ForumAddAnswerBox = React.createClass({
     },
 
     _onChange: function (event) {
-        this.setState({
-
+        this.setState({ // setState method is given to every react component
+            value: event.target.value
         });
     }
 });

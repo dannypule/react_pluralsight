@@ -4,14 +4,14 @@ function Dispatcher(){
 }
 
 Dispatcher.prototype.register = function(callback){
-    var id = 'UID' + this._lastID++;
+    var id = 'CID' + this._lastID++;
     this._callbacks[id] = callback;
     return id;
 };
 
 Dispatcher.prototype.dispatch = function(action){
     for (var id in this._callbacks){
-        this._callbacks[id]();
+        this._callbacks[id](action);
     }
 };
 
