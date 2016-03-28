@@ -16,14 +16,14 @@ var ForumAddAnswerBox = React.createClass({
             <div>
                 <textarea id="addAnswer" className="col-md-6 col-xs-8" onChange={ this._onChange }></textarea>
                 &nbsp;
-                <input type="button" className="btn btn-primary" value="Add" onClick={ this._addAnswer } />
+                <input type="button" className="btn btn-primary" value="Add Answer" onClick={ this._addAnswer } />
             </div>
         );
     },
 
     _onChange: function (event) {
         this.setState({ // setState method is given to every react component
-            value: event.target.value
+            value: event.target.value,
         });
     }
 });
